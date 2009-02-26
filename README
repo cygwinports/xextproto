@@ -4,9 +4,9 @@ X.Org Xextension protocol headers
 
 Build requirements:
   cygwin-1.5.25-15
-  cygport-0.4.1-1
+  cygport-0.4.4-1
   gawk-3.1.6-1
-  make-3.81-1
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -18,15 +18,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xextproto-7.0.3-X-src.tar.bz2
+  unpack xextproto-7.0.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xextproto-7.0.3-X.cygport all
+  cygport ./xextproto-7.0.5-X.cygport all
 
 This will create:
-  /usr/src/xextproto-7.0.3-X-src.tar.bz2
-  /usr/src/xextproto-7.0.3-X.tar.bz2
+  /usr/src/xextproto-7.0.5-X-src.tar.bz2
+  /usr/src/xextproto-7.0.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -39,16 +39,18 @@ Files included in the binary package:
   /usr/include/X11/extensions/XShm.h
   /usr/include/X11/extensions/XTest.h
   /usr/include/X11/extensions/Xag.h
-  /usr/include/X11/extensions/Xagsrv.h
   /usr/include/X11/extensions/Xagstr.h
   /usr/include/X11/extensions/Xcup.h
   /usr/include/X11/extensions/Xcupstr.h
   /usr/include/X11/extensions/Xdbe.h
   /usr/include/X11/extensions/Xdbeproto.h
   /usr/include/X11/extensions/Xext.h
+  /usr/include/X11/extensions/Xge.h
   /usr/include/X11/extensions/dpms.h
   /usr/include/X11/extensions/dpmsstr.h
   /usr/include/X11/extensions/extutil.h
+  /usr/include/X11/extensions/ge.h
+  /usr/include/X11/extensions/geproto.h
   /usr/include/X11/extensions/lbxbuf.h
   /usr/include/X11/extensions/lbxbufstr.h
   /usr/include/X11/extensions/lbxdeltastr.h
@@ -69,12 +71,15 @@ Files included in the binary package:
   /usr/include/X11/extensions/xtestext1.h
   /usr/include/X11/extensions/xteststr.h
   /usr/lib/pkgconfig/xextproto.pc
-  /usr/share/doc/xextproto-7.0.3/COPYING
-  /usr/share/doc/xextproto-7.0.3/ChangeLog
+  /usr/share/doc/xextproto-7.0.5/COPYING
+  /usr/share/doc/xextproto-7.0.5/ChangeLog
 
 ------------------
 
 Port Notes:
+
+----- version 7.0.5-1 -----
+Version bump.
 
 ----- version 7.0.3-1 -----
 Version bump.
