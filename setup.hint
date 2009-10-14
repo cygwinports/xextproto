@@ -1,3 +1,4 @@
 category: X11
-sdesc: "X.Org Xextension protocol headers"
-ldesc: "X.Org Xextension protocol headers"
+requires: xproto
+sdesc: "X.Org Xextension headers"
+ldesc: "X.Org Xextension headers"
