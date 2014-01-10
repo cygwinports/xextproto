@@ -1,4 +1,0 @@
-category: X11
-requires: xproto
-sdesc: "X.Org Xextension headers"
-ldesc: "X.Org Xextension headers"
