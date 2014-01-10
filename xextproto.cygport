@@ -1,8 +1,8 @@
 inherit xorg
 
 NAME="xextproto"
-VERSION=7.2.1
-RELEASE=2
+VERSION=7.3.0
+RELEASE=1
 CATEGORY="Devel"
 SUMMARY="X.Org X extension headers"
 DESCRIPTION="X.Org X extension headers"
